@@ -1,0 +1,913 @@
+[{
+  "id": 24291,
+  "pollster": "Gallup",
+  "start_date": "2016-04-13",
+  "end_date": "2016-04-15",
+  "method": "Live Phone",
+  "source": "http://www.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx",
+  "last_updated": "2016-04-17T15:45:04.249Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "Gallup Poll",
+    "party": "N/A"
+  }],
+  "sponsors": [],
+  "questions": [{
+    "name": "Obama Job Approval",
+    "chart": "obama-job-approval",
+    "topic": "obama-job-approval",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Adults",
+      "observations": 1500,
+      "margin_of_error": 3.0,
+      "responses": [{
+        "choice": "Approve",
+        "value": 49,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Disapprove",
+        "value": 47,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24290,
+  "pollster": "CBS/YouGov",
+  "start_date": "2016-04-13",
+  "end_date": "2016-04-15",
+  "method": "Internet",
+  "source": "https://today.yougov.com/news/2016/04/17/poll-trump-clinton-lead-new-york-california/",
+  "last_updated": "2016-04-17T15:40:26.136Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "YouGov",
+    "party": "N/A"
+  }],
+  "sponsors": [{
+    "name": "CBS News",
+    "party": "N/A"
+  }],
+  "questions": [{
+    "name": "2016 California Democratic Presidential Primary",
+    "chart": "2016-california-democratic-presidential-primary",
+    "topic": "2016-president-dem-primary",
+    "state": "CA",
+    "subpopulations": [{
+      "name": "Likely Voters - Democrat",
+      "observations": 1124,
+      "margin_of_error": 4.5,
+      "responses": [{
+        "choice": "Clinton",
+        "value": 52,
+        "first_name": "Hillary",
+        "last_name": "Clinton",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Sanders",
+        "value": 40,
+        "first_name": "Bernie",
+        "last_name": "Sanders",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 8,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 California Republican Presidential Primary",
+    "chart": "2016-california-republican-presidential-primary",
+    "topic": "2016-president-gop-primary",
+    "state": "CA",
+    "subpopulations": [{
+      "name": "Likely Voters - Republican",
+      "observations": 1012,
+      "margin_of_error": 4.8,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 31,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Kasich",
+        "value": 16,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 49,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 4,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24289,
+  "pollster": "CBS/YouGov",
+  "start_date": "2016-04-13",
+  "end_date": "2016-04-15",
+  "method": "Internet",
+  "source": "https://today.yougov.com/news/2016/04/17/poll-trump-clinton-lead-new-york-california/",
+  "last_updated": "2016-04-17T15:29:16.062Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "YouGov",
+    "party": "N/A"
+  }],
+  "sponsors": [{
+    "name": "CBS News",
+    "party": "N/A"
+  }],
+  "questions": [{
+    "name": "2016 Pennsylvania Republican Presidential Primary",
+    "chart": "2016-pennsylvania-republican-presidential-primary",
+    "topic": "2016-president-gop-primary",
+    "state": "PA",
+    "subpopulations": [{
+      "name": "Likely Voters - Republican",
+      "observations": 837,
+      "margin_of_error": 4.8,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 26,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Kasich",
+        "value": 23,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 46,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 4,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24288,
+  "pollster": "CBS/YouGov",
+  "start_date": "2016-04-13",
+  "end_date": "2016-04-15",
+  "method": "Internet",
+  "source": "https://today.yougov.com/news/2016/04/17/poll-trump-clinton-lead-new-york-california/",
+  "last_updated": "2016-04-17T15:29:27.766Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "YouGov",
+    "party": "N/A"
+  }],
+  "sponsors": [{
+    "name": "CBS News",
+    "party": "N/A"
+  }],
+  "questions": [{
+    "name": "2016 New York Republican Presidential Primary",
+    "chart": "2016-new-york-presidential-republican-primary",
+    "topic": "2016-president-gop-primary",
+    "state": "NY",
+    "subpopulations": [{
+      "name": "Likely Voters - Republican",
+      "observations": 705,
+      "margin_of_error": 5.9,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 21,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Kasich",
+        "value": 19,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 54,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 6,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 New York Democratic Presidential Primary",
+    "chart": "2016-new-york-presidential-democratic-primary",
+    "topic": "2016-president-dem-primary",
+    "state": "NY",
+    "subpopulations": [{
+      "name": "Likely Voters - Democrat",
+      "observations": 1033,
+      "margin_of_error": 4.4,
+      "responses": [{
+        "choice": "Clinton",
+        "value": 53,
+        "first_name": "Hillary",
+        "last_name": "Clinton",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Sanders",
+        "value": 43,
+        "first_name": "Bernie",
+        "last_name": "Sanders",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 4,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24287,
+  "pollster": "NBC/WSJ/Marist",
+  "start_date": "2016-04-10",
+  "end_date": "2016-04-13",
+  "method": "Live Phone",
+  "source": "http://www.nbcnewyork.com/news/local/Donald-Trump-John-Kasich-Ted-Cruz-Wall-Street-Journal-Marist-Poll-NY-375886561.html",
+  "last_updated": "2016-04-15T21:29:22.970Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "Marist College",
+    "party": "N/A"
+  }],
+  "sponsors": [{
+    "name": "NBC News",
+    "party": "N/A"
+  }, {
+    "name": "Wall Street Journal",
+    "party": "N/A"
+  }],
+  "questions": [{
+    "name": "2016 New York Republican Presidential Primary",
+    "chart": "2016-new-york-presidential-republican-primary",
+    "topic": "2016-president-gop-primary",
+    "state": "NY",
+    "subpopulations": [{
+      "name": "Likely Voters - Republican",
+      "observations": 313,
+      "margin_of_error": 5.5,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 16,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Kasich",
+        "value": 25,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 54,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }]
+    }]
+  }]
+}, {
+  "id": 24286,
+  "pollster": "Gallup",
+  "start_date": "2016-04-12",
+  "end_date": "2016-04-14",
+  "method": "Live Phone",
+  "source": "http://www.gallup.com/poll/113980/Gallup-Daily-Obama-Job-Approval.aspx",
+  "last_updated": "2016-04-15T17:02:05.564Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "Gallup Poll",
+    "party": "N/A"
+  }],
+  "sponsors": [],
+  "questions": [{
+    "name": "Obama Job Approval",
+    "chart": "obama-job-approval",
+    "topic": "obama-job-approval",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Adults",
+      "observations": 1500,
+      "margin_of_error": 3.0,
+      "responses": [{
+        "choice": "Approve",
+        "value": 48,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Disapprove",
+        "value": 47,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24285,
+  "pollster": "Rasmussen",
+  "start_date": "2016-04-12",
+  "end_date": "2016-04-14",
+  "method": "Automated Phone",
+  "source": "http://www.rasmussenreports.com/public_content/politics/obama_administration/obama_approval_index_history",
+  "last_updated": "2016-04-15T14:18:58.912Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "Rasmussen Reports",
+    "party": "N/A"
+  }],
+  "sponsors": [],
+  "questions": [{
+    "name": "Obama Job Approval",
+    "chart": "obama-job-approval",
+    "topic": "obama-job-approval",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Likely Voters",
+      "observations": 1500,
+      "margin_of_error": 3.0,
+      "responses": [{
+        "choice": "Approve",
+        "value": 49,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Disapprove",
+        "value": 51,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24284,
+  "pollster": "Behavior Research Center",
+  "start_date": "2016-04-04",
+  "end_date": "2016-04-11",
+  "method": "Live Phone",
+  "source": "http://www.realclearpolitics.com/docs/2016/RMP_AZ_Senate_April_2016.pdf",
+  "last_updated": "2016-04-15T14:01:34.404Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "Behavior Research Center",
+    "party": "N/A"
+  }],
+  "sponsors": [],
+  "questions": [{
+    "name": "2016 Arizona Senate GE",
+    "chart": null,
+    "topic": null,
+    "state": null,
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 564,
+      "margin_of_error": 4.2,
+      "responses": [{
+        "choice": "Kirkpatrick",
+        "value": 42,
+        "first_name": "Ann",
+        "last_name": "Kirkpatrick",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "McCain",
+        "value": 42,
+        "first_name": "John",
+        "last_name": "McCain",
+        "party": "Rep",
+        "incumbent": true
+      }, {
+        "choice": "Undecided",
+        "value": 16,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24283,
+  "pollster": "0ptimus (R)",
+  "start_date": "2016-04-11",
+  "end_date": "2016-04-14",
+  "method": "Automated Phone",
+  "source": "http://politicalmachination.com/trump-ahead-new-york-winner-take-uncertain/",
+  "last_updated": "2016-04-15T13:53:48.801Z",
+  "partisan": "Pollster",
+  "affiliation": "Rep",
+  "survey_houses": [{
+    "name": "0ptimus (R)",
+    "party": "Rep"
+  }],
+  "sponsors": [],
+  "questions": [{
+    "name": "2016 New York Republican Presidential Primary",
+    "chart": "2016-new-york-presidential-republican-primary",
+    "topic": "2016-president-gop-primary",
+    "state": "NY",
+    "subpopulations": [{
+      "name": "Likely Voters - Republican",
+      "observations": 14201,
+      "margin_of_error": 1.0,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 14,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Kasich",
+        "value": 23,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 49,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Undecided",
+        "value": 14,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}, {
+  "id": 24282,
+  "pollster": "CBS",
+  "start_date": "2016-04-08",
+  "end_date": "2016-04-12",
+  "method": "Live Phone",
+  "source": "https://www.scribd.com/doc/308687713/Toplines-General-Election-poll-4-14-16",
+  "last_updated": "2016-04-15T03:57:44.158Z",
+  "partisan": "Nonpartisan",
+  "affiliation": "None",
+  "survey_houses": [{
+    "name": "SSRS",
+    "party": "N/A"
+  }],
+  "sponsors": [{
+    "name": "CBS News",
+    "party": "N/A"
+  }],
+  "questions": [{
+    "name": "2016 General Election: Trump vs. Clinton",
+    "chart": "2016-general-election-trump-vs-clinton",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Clinton",
+        "value": 50,
+        "first_name": "Hillary",
+        "last_name": "Clinton",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Don't Know/ No Answer",
+        "value": 2,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Trump",
+        "value": 40,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 6,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 General Election: Cruz vs. Clinton",
+    "chart": "2016-general-election-cruz-vs-clinton",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Clinton",
+        "value": 45,
+        "first_name": "Hillary",
+        "last_name": "Clinton",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Cruz",
+        "value": 42,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Don't Know/ No Answer",
+        "value": 3,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 8,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 General Election: Kasich vs. Clinton",
+    "chart": "2016-general-election-kasich-vs-clinton",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Clinton",
+        "value": 41,
+        "first_name": "Hillary",
+        "last_name": "Clinton",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Don't Know/ No Answer",
+        "value": 5,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Kasich",
+        "value": 47,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 7,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 General Election: Trump vs. Sanders",
+    "chart": "2016-general-election-trump-vs-sanders",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Depends (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Don't Know/ No Answer",
+        "value": 3,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Sanders",
+        "value": 53,
+        "first_name": "Bernie",
+        "last_name": "Sanders",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Trump",
+        "value": 36,
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 5,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 General Election: Cruz vs. Sanders",
+    "chart": "2016-general-election-cruz-vs-sanders",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Cruz",
+        "value": 38,
+        "first_name": "Ted",
+        "last_name": "Cruz",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Don't Know/ No Answer",
+        "value": 4,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Sanders",
+        "value": 50,
+        "first_name": "Bernie",
+        "last_name": "Sanders",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 7,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "2016 General Election: Kasich vs. Sanders",
+    "chart": "2016-general-election-kasich-vs-sanders",
+    "topic": "2016-president",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Don't Know/ No Answer",
+        "value": 5,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Kasich",
+        "value": 41,
+        "first_name": "John",
+        "last_name": "Kasich",
+        "party": "Rep",
+        "incumbent": false
+      }, {
+        "choice": "Other (vol.)",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Sanders",
+        "value": 46,
+        "first_name": "Bernie",
+        "last_name": "Sanders",
+        "party": "Dem",
+        "incumbent": false
+      }, {
+        "choice": "Won't Vote (vol.)",
+        "value": 7,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "Bernie Sanders Favorable Rating",
+    "chart": "bernie-sanders-favorable-rating",
+    "topic": "favorable-ratings",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Favorable",
+        "value": 39,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Unfavorable",
+        "value": 34,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "No Answer",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Not Heard Enough",
+        "value": 7,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Undecided",
+        "value": 18,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }, {
+    "name": "Hillary Clinton Favorable Rating",
+    "chart": "hillary-clinton-favorable-rating",
+    "topic": "favorable-ratings",
+    "state": "US",
+    "subpopulations": [{
+      "name": "Registered Voters",
+      "observations": 1098,
+      "margin_of_error": null,
+      "responses": [{
+        "choice": "Favorable",
+        "value": 31,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Unfavorable",
+        "value": 54,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "No Answer",
+        "value": 1,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Not Heard Enough",
+        "value": 2,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }, {
+        "choice": "Undecided",
+        "value": 12,
+        "first_name": null,
+        "last_name": null,
+        "party": null,
+        "incumbent": null
+      }]
+    }]
+  }]
+}]
