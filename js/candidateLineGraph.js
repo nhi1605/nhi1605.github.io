@@ -51,10 +51,10 @@ CandidateLineChart.prototype.initVis = function(){
 
 
     //document.getElementById("candidate")
-    vis.margin = { top: 40, right: 60, bottom: 60, left: 60 };
+    vis.margin = { top: 20, right: 130, bottom: 20, left: 30 };
 
-    vis.width = 600 - vis.margin.left - vis.margin.right;
-        vis.height = 200 - vis.margin.top - vis.margin.bottom;
+    vis.width = 500 - vis.margin.left - vis.margin.right;
+    vis.height = 200 - vis.margin.top - vis.margin.bottom;
 
     // SVG drawing area
     vis.svg = d3.select("#" + vis.parentElement).append("svg")
@@ -66,7 +66,6 @@ CandidateLineChart.prototype.initVis = function(){
     // Scales and axes
     vis.x = d3.time.scale()
         .range([0, vis.width]);
-    //console.log(vis.x);
     vis.y = d3.scale.linear()
         .range([vis.height, 0])
         .domain([0, 1]);
@@ -114,13 +113,29 @@ CandidateLineChart.prototype.initVis = function(){
 
     vis.svg.call(vis.tip);
 
-    /* Might not need
-    // Tooltip placeholder
-    vis.label = vis.svg.append("text")
-        .attr("x", 10)
-        .attr("y", 10);
-    */
 
+    // draw legend
+    vis.legend = vis.svg.selectAll(".legend")
+        .data(["Betfair", "PredictIt", "Bookie"])
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+    // draw legend colored rectangles
+    vis.legend.append("rect")
+        .attr("x", vis.width + 30)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", colorScale);
+
+    // draw legend text
+    vis.legendText = vis.legend.append("text")
+        .data(["Betfair", "PredictIt", "Bookie"])
+        .attr("x", vis.width + 50)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "start")
+        .text(function(d) { return d})
 
     vis.wrangleData();
 };
@@ -155,7 +170,6 @@ CandidateLineChart.prototype.wrangleData = function(){
         vis.displayData = vis.data.republicans;
         name = RepublicanKey[candidateSelected]
     }
-    console.log(name);
 
     vis.format = [];
     vis.names = [];
@@ -207,23 +221,12 @@ CandidateLineChart.prototype.updateVis = function(){
         .transition().duration(800)
         .attr("class", "line")
         .style("stroke", function(d, i) {
-            var cand = vis.names[i].split(" ");
-            cand = cand[cand.length - 1];
-            return colorScale(cand);
+            var market = vis.names[i].split(" ");
+            market = market[market.length - 1];
+            return colorScale(market);
         })
         .attr("d", vis.line)
         .attr("data-legend", function(d,i) { return vis.names[i]})
-
-    // legend
-    vis.legend = vis.svg.append("g")
-        .attr("class","legend")
-        .attr("transform","translate(20,10)")
-        .style("font-size","12px")
-        .call(d3.legend)
-        .style("fill", "white")
-        .style("stroke","black")
-        .style("opacity", 0.8);
-
 
 
     // Call axis functions with the new domain

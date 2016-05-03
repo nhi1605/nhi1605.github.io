@@ -93,7 +93,7 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>The 2016 Election</h1>
-                        <h3>A Predictive Anaylsis</h3>
+                        <h3>A Predictive Analysis</h3>
                     </div>
                 </div>
             </div>
@@ -295,7 +295,7 @@
     <section id="parallax3" class="parallax" data-stellar-background-ratio="0.5"></section>
     <!-- /Section: parallax 3 -->
 
-    <div id="wordcloud" class="content-section-a" style="height:100%">
+    <div id="wordcloud" class="content-section-a">
 
         <div class="container">
             <hr class="section-heading-spacer" style="float:none">
@@ -305,7 +305,9 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">Debate Analysis</h2>
                     <p class="lead" style="margin-bottom:0px">How do the issues that the candidates care about change over time? Is there a relationship between these issues and their polling results?</p>
+                    <br>
                     <p class="lead" style="margin-bottom:0px"> Brush the timeline below to explore</p>
+                    <br>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="candidate"> </label>
@@ -319,24 +321,24 @@
                                         style="margin-top:15px;margin-right:13px">Show Debate Dates</button>
                             </div>
                         </div>
+
                     </div>
 
-
-
                     <div id = "predictor-line"></div>
+                    <h2 id="word-time-h2">Word use across time</h2>
+                    <svg id="word-time"></svg>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <p>
+                    <p style="margin-left:40px; width:500px">
                         <label for="amount2">Date: </label>
                         <input type="text" class="amountCloud" data-index="0" value="2015-12-01"
-                               readonly style="width:95px;border:0; background-color:#f8f8f8; font-weight:bold;"/>
+                               readonly style="width:150px;border:0; background-color:#f8f8f8; font-weight:bold;"/>
                         -
                         <input type="text" class="amountCloud" data-index="1" value="2016-05-01" readonly style="border:0; background-color:#f8f8f8; font-weight:bold;"/>
                     </p>
-                    <div id="slider-range2"></div>
+                    <div id="slider-range2" style="margin-left:40px"></div>
                     <div id="word-cloud"></div>
-                    <h2 id="word-time-h2">Word use across time</h2>
-                    <svg id="word-time"></svg>
+
 
                 </div>
             </div>
@@ -393,7 +395,6 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/queue.min.js"></script>
     <script src="js/topojson.js"></script>
-    <script src="js/d3.legend.js"></script>
     <script src="js/plottable.min.js"></script>
     <script src="js/d3.layout.cloud.js"></script>
     <script src="js/underscore.js"></script>
@@ -408,7 +409,7 @@
     <script src="js/prepareData.js"></script>
     <script src="js/choropleth.js"></script>
     <script src="js/legend.js"></script>
-    <script src="js/candidate.js"></script>
+    <script src="js/debateMain.js"></script>
     <script src="js/wordCloud2.js"></script>
     <script src="js/wordTime.js"></script>
     <script src="js/candidateLineGraph.js"></script>

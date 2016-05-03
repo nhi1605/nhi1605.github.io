@@ -25,9 +25,6 @@ WordTime.prototype.initVis = function() {
         .yAlignment("center");
 
     vis.yAxis = new Plottable.Axes.Numeric(vis.yScale, "left");
-
-
-    console.log("here")
     vis.plot = new Plottable.Plots.Bar();
     vis.plot.addDataset(wordTime)
         .x(function(d) {

@@ -13,7 +13,7 @@ CandidateStyle = function(_parentElement, _data) {
 CandidateStyle.prototype.initVis = function() {
     var vis = this;
 
-    vis.margin = { top: 100, right: 140, bottom: 20, left: 40 };
+    vis.margin = { top: 100, right: 140, bottom: 30, left: 30 };
 
     vis.width = 600 - vis.margin.left - vis.margin.right;
     vis.height = 500 - vis.margin.top - vis.margin.bottom;
@@ -94,17 +94,6 @@ CandidateStyle.prototype.initVis = function() {
         return timeFormat(d.date);
     }).uniq().value();
 
-    // find minimum point of graph for axis boundary
-    vis.minPolarity = d3.extent(vis.data.map(function(d) {
-        return d.polarity;
-    }))
-    vis.minSubjectivity = d3.extent(vis.data.map(function(d) {
-        return d.subjectivity;
-    }))
-    vis.x.domain([vis.minPolarity[0] - 0.1, vis.minPolarity[1] + 0.1]);
-    vis.y.domain([vis.minSubjectivity[0] - 0.1, vis.minSubjectivity[1] + 0.1]);
-
-
     // draw legend
     vis.legend = vis.svg.selectAll(".legend")
         .data(vis.allCandidates)
@@ -164,6 +153,13 @@ CandidateStyle.prototype.wrangleData = function() {
         }
 
     })
+
+    vis.minPolarity = d3.extent(vis.data.map(function(d) {
+        return d.polarity;
+    }))
+    vis.minSubjectivity = d3.extent(vis.data.map(function(d) {
+        return d.subjectivity;
+    }))
     var candidate;
     var mean;
     vis.displayData = []
@@ -201,14 +197,9 @@ CandidateStyle.prototype.updateVis = function() {
     var vis = this;
 
 
-    var minPolarity = d3.extent(vis.data.map(function(d) {
-        return d.polarity;
-    }))
-    var minSubjectivity = d3.extent(vis.data.map(function(d) {
-        return d.subjectivity;
-    }))
-    vis.x.domain([minSubjectivity[0] - 0.01, minSubjectivity[1] + 0.01]);
-    vis.y.domain([minPolarity[0] - 0.01, minPolarity[1] + 0.01]);
+
+    vis.x.domain([vis.minSubjectivity[0] - 0.01, vis.minSubjectivity[1] + 0.01]);
+    vis.y.domain([vis.minPolarity[0] - 0.01, vis.minPolarity[1] + 0.01]);
 
 
     //console.log(displayData);

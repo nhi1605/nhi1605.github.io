@@ -15,7 +15,7 @@ WordCloud.prototype.initVis = function() {
     var vis = this;
 
 
-    vis.height = screen.height / 3;
+    vis.height = screen.height / 1.5;
     vis.width = 550;
 
 
@@ -24,7 +24,7 @@ WordCloud.prototype.initVis = function() {
         .attr("height", vis.height)
         .append("g")
         .attr("transform", "translate(" + vis.width/2 +"," + vis.height/2 + ")");
-    console.log("boo");
+
     vis.tip = d3.tip()
         .attr("class", "d3-tip")
         .offset([-10,0])
@@ -33,7 +33,7 @@ WordCloud.prototype.initVis = function() {
         });
 
     vis.svg.call(vis.tip);
-    $( "#slider-range2" ).slider( "option", "values", [ new Date('2015-12-01').getTime() / 1000, new Date('2016-05-01').getTime() / 1000 ] );
+
 
     vis.wrangleData();
 
@@ -50,31 +50,21 @@ WordCloud.prototype.wrangleData = function() {
     // Get date value from slider
     var startDate = vis.parseDate.parse(vis.parseDate((new Date($( "#slider-range2" ).slider("values", 0)*1000))));
     var endDate = vis.parseDate.parse(vis.parseDate((new Date($( "#slider-range2" ).slider("values", 1)*1000))));
-    if (vis.min !== undefined && vis.max !== undefined) {
-        startDate = vis.min;
-        endDate = vis.max;
-    }
+
     vis.displayData = vis.data.filter(function (d) {
         return d.candidate == candidateSelected && d.date >= startDate && d.date <= endDate ;
     });
-    //console.log(vis.displayData)
+
+    // combines word frequency from different debate dates
     var allWords = [];
     vis.displayData.forEach(function(d,i) {
-        //console.log(d);
         d.words.forEach(function (d2, i2){
             allWords[i*i2+i2] = {
                 "text": d2[0],
                 "frequency": d2[1]
             }
-            //console.log(d2);
         })
-
     });
-    //console.log(vis.data);
-
-    // gotta take care of case where candidate is no longer running
-    //console.log(allWords);
-    // combining frequency
     var wordSet = [];
     var combined = [];
     var inArray;
@@ -95,8 +85,7 @@ WordCloud.prototype.wrangleData = function() {
     });
 
     vis.displayData = combined;
-    console.log(vis.displayData);
-    //console.log(vis.displayData);
+
     vis.updateVis();
 
 };
@@ -105,12 +94,11 @@ WordCloud.prototype.wrangleData = function() {
 
 WordCloud.prototype.updateVis = function() {
     var vis = this;
-    console.log(vis);
+
     d3.layout.cloud().size([vis.width, vis.height])
-        .words(vis.displayData) // display only first 7 words
+        .words(vis.displayData)
         .rotate(0)
         .fontSize(function(d) {
-            //console.log(d.text);
             return d.frequency*25; })
         .on("end", draw)
         .start();
@@ -151,18 +139,3 @@ WordCloud.prototype.updateVis = function() {
             .transition().duration(800).style("font-size", function(d) { return d.size/2 + "px";});
     }
 };
-
-
-// handles the time slider
-
-
-// set up slider
-
-
-
-/*
-
- */
-
-
-
